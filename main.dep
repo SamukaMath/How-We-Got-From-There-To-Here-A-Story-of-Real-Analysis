@@ -1,0 +1,216 @@
+\RequireVersions{
+  *{application}{pdfTeX}  {0000/00/00 v1.40.25}
+  *{format} {LaTeX2e}     {2023-11-01 v2.e}
+  *{package}{snapshot}    {2020/06/17 v2.14}
+  *{class}  {book}        {2023/05/17 v1.4n}
+  *{file}   {bk10.clo}    {2023/05/17 v1.4n}
+  *{file}   {pre_ambulo.tex}{0000/00/00 v0.0}
+  *{package}{geometry}    {2020/01/02 v5.9}
+  *{package}{keyval}      {2022/05/29 v1.15}
+  *{package}{ifvtex}      {2019/10/25 v1.7}
+  *{package}{iftex}       {2022/02/03 v1.0f}
+  *{file}   {geometry.cfg}{0000/00/00 v0.0}
+  *{package}{ifthen}      {2022/04/13 v1.1d}
+  *{package}{etoolbox}    {2020/10/05 v2.5k}
+  *{package}{ifxetex}     {2019/10/25 v0.7}
+  *{package}{ifluatex}    {2019/10/25 v1.5}
+  *{package}{graphicx}    {2021/09/16 v1.2d}
+  *{package}{graphics}    {2022/03/10 v1.4e}
+  *{package}{trig}        {2021/08/11 v1.11}
+  *{file}   {graphics.cfg}{2016/06/04 v1.11}
+  *{file}   {pdftex.def}  {2022/09/22 v1.2b}
+  *{package}{xcolor}      {2023/11/15 v3.01}
+  *{file}   {color.cfg}   {2016/01/02 v1.6}
+  *{file}   {mathcolor.ltx}{0000/00/00 v0.0}
+  *{file}   {dvipsnam.def}{2016/06/17 v3.0m}
+  *{file}   {svgnam.def}  {2023/11/15 v3.01}
+  *{package}{colortbl}    {2022/06/20 v1.0f}
+  *{package}{array}       {2023/10/16 v2.5g}
+  *{package}{tcolorbox}   {2023/09/26 v6.1.0}
+  *{package}{pgf}         {2023-01-15 v3.1.10}
+  *{package}{pgfrcs}      {2023-01-15 v3.1.10}
+  *{file}   {pgfrcs.code.tex}{0000/00/00 v0.0}
+  *{package}{pgfcore}     {2023-01-15 v3.1.10}
+  *{package}{pgfsys}      {2023-01-15 v3.1.10}
+  *{file}   {pgfsys.code.tex}{0000/00/00 v0.0}
+  *{file}   {pgfsyssoftpath.code.tex}{2023-01-15 v3.1.10}
+  *{file}   {pgfsysprotocol.code.tex}{2023-01-15 v3.1.10}
+  *{file}   {pgfcore.code.tex}{0000/00/00 v0.0}
+  *{package}{pgfcomp-version-0-65}{2023-01-15 v3.1.10}
+  *{package}{pgfcomp-version-1-18}{2023-01-15 v3.1.10}
+  *{package}{verbatim}    {2023-11-06 v1.5v}
+  *{package}{environ}     {2014/05/04 v0.3}
+  *{package}{trimspaces}  {2009/09/17 v1.1}
+  *{package}{tikz}        {2023-01-15 v3.1.10}
+  *{package}{pgffor}      {2023-01-15 v3.1.10}
+  *{package}{pgfkeys}     {0000/00/00 v0.0}
+  *{file}   {pgfkeys.code.tex}{0000/00/00 v0.0}
+  *{package}{pgfmath}     {0000/00/00 v0.0}
+  *{file}   {pgfmath.code.tex}{0000/00/00 v0.0}
+  *{file}   {pgffor.code.tex}{0000/00/00 v0.0}
+  *{file}   {tikz.code.tex}{0000/00/00 v0.0}
+  *{package}{tikzfill.image}{2023/08/08 v1.0.1}
+  *{package}{tikzfill-common}{2023/08/08 v1.0.1}
+  *{package}{pdfcol}      {2022-09-21 v1.7}
+  *{package}{ltxcmds}     {2023-12-04 v1.26}
+  *{package}{infwarerr}   {2019/12/03 v1.5}
+  *{package}{xparse}      {2023-10-10 v3}
+  *{package}{expl3}       {2024-01-04 v3}
+  *{file}   {l3backend-pdftex.def}{2024-01-04 v3}
+  *{package}{xstring}     {2023/08/22 v1.86}
+  *{package}{inputenc}    {2021/02/14 v1.3d}
+  *{package}{lmodern}     {2015/05/01 v1.6.1}
+  *{package}{fontenc}     {0000/00/00 v0.0}
+  *{file}   {t1lmr.fd}    {2015/05/01 v1.6.1}
+  *{package}{microtype}   {2023/03/13 v3.1a}
+  *{file}   {microtype-pdftex.def}{2023/03/13 v3.1a}
+  *{file}   {microtype.cfg}{2023/03/13 v3.1a}
+  *{package}{amsmath}     {2023/05/13 v2.17o}
+  *{package}{amstext}     {2021/08/26 v2.01}
+  *{package}{amsgen}      {1999/11/30 v2.0}
+  *{package}{amsbsy}      {1999/11/29 v1.2d}
+  *{package}{amsopn}      {2022/04/08 v2.04}
+  *{package}{amscd}       {2017/04/14 v2.1}
+  *{package}{amssymb}     {2013/01/14 v3.01}
+  *{package}{amsfonts}    {2013/01/14 v3.01}
+  *{package}{babel}       {2023/12/10 v3.99}
+  *{file}   {bblopts.cfg} {2005/09/08 v0.1}
+  *{file}   {brazil.ldf}  {0000/00/00 v0.0}
+  *{package}{titlesec}    {2023/10/27 v2.16}
+  *{package}{titleps}     {0000/00/00 v0.0}
+  *{package}{titletoc}    {2023/10/27 v2.16}
+  *{package}{qrcode}      {2015/01/08 v1.51}
+  *{package}{xkeyval}     {2022/06/16 v2.9}
+  *{file}   {xkeyval.tex} {2014/12/03 v2.7a}
+  *{package}{enumitem}    {2019/06/20 v3.9}
+  *{package}{imakeidx}    {2016/10/15 v1.3e}
+  *{package}{multicol}    {2023/03/30 v1.9f}
+  *{package}{hyperref}    {2023-11-26 v7.01g}
+  *{package}{kvsetkeys}   {2022-10-05 v1.19}
+  *{package}{kvdefinekeys}{2019-12-19 v1.6}
+  *{package}{pdfescape}   {2019/12/09 v1.15}
+  *{package}{pdftexcmds}  {2020-06-27 v0.33}
+  *{package}{hycolor}     {2020-01-27 v1.10}
+  *{package}{letltxmacro} {2019/12/03 v1.6}
+  *{package}{auxhook}     {2019-12-17 v1.6}
+  *{package}{nameref}     {2023-11-26 v2.56}
+  *{package}{refcount}    {2019/12/15 v3.6}
+  *{package}{gettitlestring}{2019/12/15 v1.6}
+  *{package}{kvoptions}   {2022-06-15 v3.15}
+  *{file}   {pd1enc.def}  {2023-11-26 v7.01g}
+  *{package}{intcalc}     {2019/12/15 v1.3}
+  *{file}   {puenc.def}   {2023-11-26 v7.01g}
+  *{package}{url}         {2013/09/16 v3.4}
+  *{package}{bitset}      {2019/12/09 v1.3}
+  *{package}{bigintcalc}  {2019/12/15 v1.5}
+  *{package}{atbegshi-ltx}{2021/01/10 v1.0c}
+  *{file}   {hpdftex.def} {2023-11-26 v7.01g}
+  *{package}{atveryend-ltx}{2020/08/19 v1.0a}
+  *{package}{rerunfilecheck}{2022-07-10 v1.10}
+  *{package}{uniquecounter}{2019/12/15 v1.4}
+  *{package}{extpfeil}    {2009/10/31 v0.4}
+  *{package}{mathtools}   {2022/06/29 v1.29}
+  *{package}{calc}        {2023/07/08 v4.3}
+  *{package}{mhsetup}     {2021/03/18 v1.4}
+  *{package}{stmaryrd}    {1994/03/03 v0.0}
+  *{file}   {ts1lmr.fd}   {2015/05/01 v1.6.1}
+  *{file}   {ot1lmr.fd}   {2015/05/01 v1.6.1}
+  *{file}   {omllmm.fd}   {2015/05/01 v1.6.1}
+  *{file}   {omslmsy.fd}  {2015/05/01 v1.6.1}
+  *{file}   {omxlmex.fd}  {2015/05/01 v1.6.1}
+  *{file}   {umsa.fd}     {2013/01/14 v3.01}
+  *{file}   {umsb.fd}     {2013/01/14 v3.01}
+  *{file}   {ustmry.fd}   {0000/00/00 v0.0}
+  *{file}   {t1lmtt.fd}   {2015/05/01 v1.6.1}
+  *{-------}{Document-specific files:}{----}
+  *{file}   {supp-pdf.mkii}{0000/00/00 v0.0}
+  *{package}{epstopdf-base}{2020-01-24 v2.11}
+  *{file}   {epstopdf-sys.cfg}{2021/03/18 v2.0}
+  *{file}   {mt-cmr.cfg}  {2013/05/19 v2.2}
+  *{file}   {main.out}    {0000/00/00 v0.0}
+  *{file}   {main.out}    {0000/00/00 v0.0}
+  *{file}   {mt-msa.cfg}  {2006/02/04 v1.1}
+  *{file}   {mt-msb.cfg}  {2005/06/01 v1.0}
+  *{file}   {agradecimentos.tex}{0000/00/00 v0.0}
+  *{file}   {capitulos/cap1/cap1.tex}{0000/00/00 v0.0}
+  *{file}   {capitulos/cap2/cap2.tex}{0000/00/00 v0.0}
+  *{file}   {external/images/Tartaglia.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Cardan.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Polya.png}{0000/00/00 v0.0}
+  *{file}   {capitulos/cap3/cap3.tex}{0000/00/00 v0.0}
+  *{file}   {external/images/Fractions.png}{0000/00/00 v0.0}
+  *{file}   {external/images/RationalNumberLine.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Sqrt2.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Sqrt2OnRatLine.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Sqrt2Irrational.png}{0000/00/00 v0.0}
+  *{file}   {external/images/RationalLineWithHoles.png}{0000/00/00 v0.0}
+  *{file}   {external/images/RandQ.png}{0000/00/00 v0.0}
+  *{file}   {capitulos/cap4/cap4.tex}{0000/00/00 v0.0}
+  *{file}   {external/images/Leibniz.png}{0000/00/00 v0.0}
+  *{file}   {external/images/fig1.png}{0000/00/00 v0.0}
+  *{file}   {external/images/fig2.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Newton.png}{0000/00/00 v0.0}
+  *{file}   {external/images/snellfig.png}{0000/00/00 v0.0}
+  *{file}   {external/images/snellfig2.png}{0000/00/00 v0.0}
+  *{file}   {external/images/snellfig3.png}{0000/00/00 v0.0}
+  *{file}   {external/images/brachfig1.png}{0000/00/00 v0.0}
+  *{file}   {external/images/BernoulliJohann.png}{0000/00/00 v0.0}
+  *{file}   {external/images/brachfig2.png}{0000/00/00 v0.0}
+  *{file}   {external/images/snellfig4.png}{0000/00/00 v0.0}
+  *{file}   {external/images/snellfig5.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Euler.png}{0000/00/00 v0.0}
+  *{file}   {capitulos/cap5/cap5.tex}{0000/00/00 v0.0}
+  *{file}   {external/images/Taylor.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Lagrange.png}{0000/00/00 v0.0}
+  *{file}   {external/images/AltHarmonic.png}{0000/00/00 v0.0}
+  *{file}   {capitulos/cap6/cap6.tex}{0000/00/00 v0.0}
+  *{file}   {external/images/Fourier.png}{0000/00/00 v0.0}
+  *{file}   {external/images/FourierEx1.png}{0000/00/00 v0.0}
+  *{file}   {external/images/FourierEx4.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch2fig1.png}{0000/00/00 v0.0}
+  *{file}   {external/images/FourierEx8.png}{0000/00/00 v0.0}
+  *{file}   {external/images/FourierEx10.png}{0000/00/00 v0.0}
+  *{file}   {external/images/FourierEx11.png}{0000/00/00 v0.0}
+  *{file}   {capitulos/cap7/cap7.tex}{0000/00/00 v0.0}
+  *{file}   {external/images/NumberLine.png}{0000/00/00 v0.0}
+  *{file}   {capitulos/cap8/cap8.tex}{0000/00/00 v0.0}
+  *{file}   {external/images/Cauchy.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch5fig4.png}{0000/00/00 v0.0}
+  *{file}   {capitulos/cap9/cap9.tex}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch5fig1.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch5fig2.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Weierstrass.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Bolzano.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch5fig3a.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch5fig3b.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch5fig3c.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch5fig3d.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Halmos.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch5fig4.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch5fig5.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch5fig6.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch5fig7.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch5fig8.png}{0000/00/00 v0.0}
+  *{file}   {external/images/SinGraph.png}{0000/00/00 v0.0}
+  *{file}   {external/images/UnitCircle.png}{0000/00/00 v0.0}
+  *{file}   {external/images/MVT.png}{0000/00/00 v0.0}
+  *{file}   {capitulos/cap10/cap10.tex}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch6fig1.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch6fig2.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch6fig3.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch6fig4.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch6fig5.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch6fig6.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch6fig7.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch6fig8.png}{0000/00/00 v0.0}
+  *{file}   {capitulos/cap11/cap11.tex}{0000/00/00 v0.0}
+  *{file}   {external/images/Ch7fig1.png}{0000/00/00 v0.0}
+  *{file}   {external/images/CompletenessAxioms.png}{0000/00/00 v0.0}
+  *{file}   {capitulos/cap12/cap12.tex}{0000/00/00 v0.0}
+  *{file}   {external/images/Cantor.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Dedekind.png}{0000/00/00 v0.0}
+  *{file}   {external/images/Godel.png}{0000/00/00 v0.0}
+  *{file}   {capitulos/cap13/cap13.tex}{0000/00/00 v0.0}
+  *{file}   {referencias.tex}{0000/00/00 v0.0}
+  *{file}   {main.ind}    {0000/00/00 v0.0}
+}

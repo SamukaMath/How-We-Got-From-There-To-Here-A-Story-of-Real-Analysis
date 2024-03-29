@@ -1,0 +1,100 @@
+%********************************************%
+%*       Generated from PreTeXt source      *%
+%*       on 2022-03-04T14:07:07-05:00       *%
+%*   A recent stable commit (2020-08-09):   *%
+%* 98f21740783f166a773df4dc83cab5293ab63a4a *%
+%*                                          *%
+%*         https://pretextbook.org          *%
+%*                                          *%
+%********************************************%
+%% We elect to always write snapshot output into <job>.dep file
+\RequirePackage{snapshot}
+\documentclass[oneside,10pt,]{book}
+%% Custom Preamble Entries, early (use latex.preamble.early)
+%% Default LaTeX packages
+%%   1.  always employed (or nearly so) for some purpose, or
+%%   2.  a stylewriter may assume their presence
+
+\input{pre_ambulo}
+
+%% End: Author-provided macros
+\begin{document}
+%% bottom alignment is explicit, since it normally depends on oneside, twoside
+\raggedbottom
+\frontmatter
+%% begin: half-title
+\thispagestyle{empty}
+{\titlepagefont\centering
+\vspace*{0.28\textheight}
+{\Huge How We Got From There To Here: A Story of Real Analysis}\\}
+\clearpage
+%% end:   half-title
+%% begin: title page
+%% Inspired by Peter Wilson's "titleDB" in "titlepages" CTAN package
+\thispagestyle{empty}
+{\titlepagefont\centering
+\vspace*{0.14\textheight}
+%% Target for xref to top-level element is ToC
+\addtocontents{toc}{\protect\hypertarget{x:book:ASORA}{}}
+{\Huge How We Got From There To Here: A Story of Real Analysis}\\[3\baselineskip]
+{\Large Robert Rogers}\\[0.5\baselineskip]
+{\Large SUNY, Fredonia\\
+Fredonia, New York, USA}\\[3\baselineskip]
+{\Large Eugene C. Boman}\\[0.5\baselineskip]
+{\Large Penn State, Harrisburg campus\\
+Harrisburg, PA, USA}\\}
+\clearpage
+%% end:   title page
+%% begin: copyright-page
+\include{copyright}
+%% end:   copyright-page
+%
+%
+\typeout{************************************************}
+\typeout{Agradecimentos  Agradecimentos}
+\typeout{************************************************}
+%
+
+% arquivo com os agradecimentos
+\include{agradecimentos}
+
+%% begin: table of contents
+%% Adjust Table of Contents
+\setcounter{tocdepth}{0}
+\renewcommand*\contentsname{Sumário}
+\tableofcontents
+%% end:   table of contents
+\mainmatter
+%
+
+\include{capitulos/cap1/cap1}
+\include{capitulos/cap2/cap2}
+\include{capitulos/cap3/cap3}
+\include{capitulos/cap4/cap4}
+\include{capitulos/cap5/cap5}
+\include{capitulos/cap6/cap6}
+\include{capitulos/cap7/cap7}
+\include{capitulos/cap8/cap8}
+\include{capitulos/cap9/cap9}
+\include{capitulos/cap10/cap10}
+\include{capitulos/cap11/cap11}
+\include{capitulos/cap12/cap12}
+\include{capitulos/cap13/cap13}
+
+
+
+%
+\backmatter%
+%
+\clearpage\phantomsection%
+\addcontentsline{toc}{part}{Back Matter}%
+%
+%
+
+\include{referencias}
+
+%% The index is here, setup is all in preamble
+%% Index locators are cross-references, so same font here
+{\xreffont\printindex}
+%
+\end{document}
